@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-success,
+.btn-success {
+    background: radial-gradient(circle, rgba(164, 255, 170, 1) 0%, rgba(81, 170, 155, 1) 100%);
+}
+
+.bg-danger,
+.btn-danger {
+    background: rgb(193, 157, 157);
+    background: linear-gradient(45deg, rgba(193, 157, 157, 1) 0%, rgba(146, 214, 205, 1) 100%);
+}
+
+.bg-primary,
+.btn-primary {
+    background: radial-gradient(circle, rgba(77, 117, 162, 1) 0%, rgba(82, 173, 186, 1) 100%);
+}
+
+.bg-warning,
+.btn-warning {
+    background: rgb(172, 106, 115);
+    background: linear-gradient(90deg, rgba(172, 106, 115, 1) 0%, rgba(155, 205, 181, 1) 53%, rgba(165, 146, 214, 1) 98%);
+}
+
+.bg-secondary,
+.btn-secondary {
+    background: rgb(139, 106, 172);
+    background: linear-gradient(90deg, rgba(139, 106, 172, 1) 0%, rgba(155, 156, 153, 1) 0%, rgba(31, 120, 141, 1) 48%, rgba(126, 47, 47, 1) 100%);
+}
+
+.bg-dark,
+.btn-dark {
+    background: radial-gradient(circle, rgba(111, 111, 130, 1) 0%, rgba(25, 56, 65, 1) 0%);
+}
+
+.carousel .carousel-indicators li {
+    width: 25px;
+    height: 5px;
+    border-radius: 0%
+}
+
+.text-teal {
+    color: rgb(98, 222, 224);
+}
+
+.bg-teal {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(63, 130, 130, 1) 0%);
+}
+
+.nav-link {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background: linear-gradient(45deg, black, darkslategrey);
+    color: white !important;
+    box-shadow: 0 0 5px black;
+}
+
+.bg-dashboard {
+    background: radial-gradient(circle, rgba(111, 111, 130, 1) 0%, rgba(74, 115, 126, 1) 0%);
+}
+
+.text-primary {
+    color: rgb(79, 144, 173) !important;
+}
+
+.text-secondary {
+    color: rgb(44, 110, 128) !important;
+}
+
+.text-danger {
+    color: #dea37e !important;
+}
+
+.bg-light-dash {
+    background: rgb(184, 214, 222) !important;
+}
+
+.bg-light-primary {
+    background: #c3dde3 !important;
+}
+
+.bg-light-danger {
+    color: #179f82 !important;
+}
+.bg-light-secondary {
+    color: #7e9396 !important;
+}
+.p-image {
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.btn-red {
+    background: rgb(230, 65, 5);
+    background: linear-gradient(45deg, rgba(230, 65, 5, 1) 0%, rgba(230, 65, 34, 1) 100%);
+}
+.landing-div{
+    background: white url(../images/pexels-recal-media-60217.jpg) no-repeat scroll center;
+    height: 100vh;
+    background-size: cover;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+}
+.landing-wrapper{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 100%;
+}
+.img-ancient{
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.dest-card{
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.dest-card-img{
+    border-radius: 10px;
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+}
+.dest-card .dest-card-title{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.dest-card-info{
+    position: absolute;
+    bottom: 10px;
+    background-color: #de864f;
+    border-radius: 0 20px 20px 0 ;
+    padding: 2px 10px;
+    color: white;
+    transition: all 0.5s;
+    
+}
+.dest-card:hover .dest-card-info {
+    width: 50%;
+    text-align: center;
+   
+}
+.card-dest-shadow{
+    box-shadow: 0 10px 10px 0px black;
+}
+.card-head{
+    position: relative;
+}
+.card-header-info{
+    position: absolute;
+    right: 10px !important;
+    background-color: rgba(62, 229, 73, 0.658);
+    color: white;
+    padding: 3px;
+    top: 15px;
+    border-radius: 10px;
+}
+.background-img{
+    background:white url(../images/usacard.jpg) no-repeat scroll center;
+    background-size: cover;
+
+}
+.container-landing{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
